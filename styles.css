@@ -1,0 +1,58 @@
+body {
+    background-color: #c5c5c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px; /* Increase font size for a professional look */
+    text-transform: uppercase; /* Convert text to all uppercase */
+    letter-spacing: 4px; /* Add letter spacing for a stylish appearance */
+    margin-bottom: 20px; /* Add spacing between the title and form */
+  }
+
+/* Style the "Search Giphy" button */
+#search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #search-button:hover {
+    background-color: #555;
+  }
+  
+  /* Style the "Clear GIFs" button */
+  .clear-button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .clear-button:hover {
+    background-color: #FF6347;
+  }
